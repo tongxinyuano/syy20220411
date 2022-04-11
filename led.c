@@ -16,7 +16,11 @@ void led_init(void)
 	init.pin = LED3;
 	hal_gpio_init(LED3_PORT, &init);
 	//用来测试分支的合并
+<<<<<<< HEAD
 	printf("123123");
+=======
+	printf("456456");
+>>>>>>> develop
 }
 void led_flash(unsigned int ms)
 {
